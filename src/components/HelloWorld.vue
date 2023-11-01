@@ -1,5 +1,10 @@
 <template>
   <div class="hello">
+
+    <h1>mavon-editorサンプル</h1>
+    <mavon-editor :toolbars="markdownOption" @imgAdd="imgAdd" language="en" v-model="content" />
+  <button @click="register">登録</button>
+<!--
     <h1>{{ msg }}</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
@@ -27,6 +32,7 @@
       <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
     </ul>
+    -->
   </div>
 </template>
 
